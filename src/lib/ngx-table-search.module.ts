@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import NgxTableSearch from './searchPipe/search-pipe.pipe'
+import NgxTableSearch from './searchPipe/ngx-table-search.pipe'
 
 
 @NgModule({
