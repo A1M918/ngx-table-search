@@ -3,14 +3,14 @@ import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({
   name: 'search'
 })
-export class SearchPipe implements PipeTransform {
+export default class NgxTableSearch implements PipeTransform {
 /**
  *
  *
  * @param {any[]} value
  * @param {string} searchTerm
  * @returns {any[]}
- * @memberof SearchPipe
+ * @memberof NgxTableSearch
  */
 transform(value: any[], searchTerm: string): any[] {
     if (value !== [] && value !== undefined && value !== null){
